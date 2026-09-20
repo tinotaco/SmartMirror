@@ -7,6 +7,8 @@ SmartMirror is a Qt Quick desktop application for displaying useful information 
 - Calendar month view and upcoming events
 - Deutsche Bahn departures, including delays and cancellations
 
+The user interface was developed partially with AI assistance. In particular, the departure-table UI and its presentation logic were created and refined with AI assistance.
+
 ## Requirements
 
 - Qt 6 with the `Core`, `Quick`, `Network`, and `NetworkAuth` modules
@@ -86,12 +88,15 @@ These messages include request URLs, HTTP status information, parsed train IDs, 
 
 ## Project structure
 
-- `main.cpp` - application startup and QML context setup
-- `main.qml` - dashboard layout
-- `departureTableView.cpp/.h` - Deutsche Bahn requests and departure model
-- `DepartureTableView.qml` - departure table presentation
-- `weatherView.cpp/.h` - weather API integration
-- `WeatherView.qml` and `WeatherDataView.qml` - weather presentation
-- `calendarEvents.cpp/.h` - Google Calendar OAuth and event retrieval
-- `CalendarView.qml` and `CalendarEvents.qml` - calendar presentation
+- `src/` - C++ application and API integration sources
+- `qml/` - QML dashboard and widget views
+- `qml/weatherIcons/` - weather icon resources
+- `src/main.cpp` - application startup and QML context setup
+- `qml/main.qml` - dashboard layout
+- `src/departureTableView.cpp/.h` - Deutsche Bahn requests and departure model
+- `qml/DepartureTableView.qml` - departure table presentation
+- `src/weatherView.cpp/.h` - weather API integration
+- `qml/WeatherView.qml` and `qml/WeatherDataView.qml` - weather presentation
+- `src/calendarEvents.cpp/.h` - Google Calendar OAuth and event retrieval
+- `qml/CalendarView.qml` and `qml/CalendarEvents.qml` - calendar presentation
 - `qml.qrc` - QML and weather icon resources

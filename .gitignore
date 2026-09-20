@@ -1,4 +1,5 @@
 config.ini
+.DS_Store
 build/
 *.user
 .qtcreator/

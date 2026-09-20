@@ -45,7 +45,7 @@ ColumnLayout {
                 source:
                 {
                     let daytimeString = daytime ? "day" : "night"
-                    let prePath = "qrc:/weatherIcons/"
+                    let prePath = "qrc:/qml/weatherIcons/"
                     let fileType = ".svg"
                     switch (weatherBackend.weatherType) {
                     case WeatherViewBackend.Clear:

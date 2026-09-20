@@ -1,23 +1,23 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
-        <file>ClockView.qml</file>
-        <file>WeatherView.qml</file>
-        <file>weatherIcons/clear-day.svg</file>
-        <file>weatherIcons/clear-night.svg</file>
-        <file>weatherIcons/cloudy-night.svg</file>
-        <file>weatherIcons/isolated-thunderstorms-day.svg</file>
-        <file>weatherIcons/isolated-thunderstorms-night.svg</file>
-        <file>weatherIcons/rain-and-snow-mix.svg</file>
-        <file>weatherIcons/rainy.svg</file>
-        <file>weatherIcons/showers-day.svg</file>
-        <file>weatherIcons/showers-night.svg</file>
-        <file>weatherIcons/snowy.svg</file>
-        <file>weatherIcons/wind.svg</file>
-        <file>WeatherDataView.qml</file>
-        <file>weatherIcons/cloudy-day.svg</file>
-        <file>CalendarView.qml</file>
-        <file>CalendarEvents.qml</file>
-        <file>DepartureTableView.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/ClockView.qml</file>
+        <file>qml/WeatherView.qml</file>
+        <file>qml/weatherIcons/clear-day.svg</file>
+        <file>qml/weatherIcons/clear-night.svg</file>
+        <file>qml/weatherIcons/cloudy-night.svg</file>
+        <file>qml/weatherIcons/isolated-thunderstorms-day.svg</file>
+        <file>qml/weatherIcons/isolated-thunderstorms-night.svg</file>
+        <file>qml/weatherIcons/rain-and-snow-mix.svg</file>
+        <file>qml/weatherIcons/rainy.svg</file>
+        <file>qml/weatherIcons/showers-day.svg</file>
+        <file>qml/weatherIcons/showers-night.svg</file>
+        <file>qml/weatherIcons/snowy.svg</file>
+        <file>qml/weatherIcons/wind.svg</file>
+        <file>qml/WeatherDataView.qml</file>
+        <file>qml/weatherIcons/cloudy-day.svg</file>
+        <file>qml/CalendarView.qml</file>
+        <file>qml/CalendarEvents.qml</file>
+        <file>qml/DepartureTableView.qml</file>
     </qresource>
 </RCC>

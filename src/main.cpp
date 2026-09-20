@@ -2,11 +2,11 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
-#include "clock.h"
-#include "weatherView.h"
-#include "calendarView.h"
-#include "calendarEvents.h"
-#include "departureTableView.h"
+#include "src/clock.h"
+#include "src/weatherView.h"
+#include "src/calendarView.h"
+#include "src/calendarEvents.h"
+#include "src/departureTableView.h"
 
 int main(int argc, char *argv[])
 {
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Clock>("MyApp", 1, 0, "Clock");
     qmlRegisterType<CalendarViewBackend>("MyApp", 1, 0, "CalendarBackend");
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)

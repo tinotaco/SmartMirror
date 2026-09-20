@@ -16,11 +16,11 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick Network NetworkAuth REQUIRED
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick Network NetworkAuth REQUIRED)
 
 set(PROJECT_SOURCES
-        main.cpp
-        clock.cpp
-        weatherView.cpp
-        calendarView.cpp
-        calendarEvents.cpp
+    src/main.cpp
+    src/clock.cpp
+    src/weatherView.cpp
+    src/calendarView.cpp
+    src/calendarEvents.cpp
         qml.qrc
 )
 
@@ -28,12 +28,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(SmartMirror
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        calendarEvents.h
-        calendarView.h
-        weatherView.h
-        clock.h
-        departureTableView.h
-        departureTableView.cpp
+        src/calendarEvents.h
+        src/calendarView.h
+        src/weatherView.h
+        src/clock.h
+        src/departureTableView.h
+        src/departureTableView.cpp
 
     )
 
