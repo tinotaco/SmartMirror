@@ -1,0 +1,19 @@
+[station]
+# DB station EVA number. Furth(b Deisenhofen) is 8002161.
+evaNumber=8002161
+
+[db]
+# Create these credentials in the DB API Marketplace.
+clientId=
+apiKey=
+
+[calendar]
+# Google OAuth credentials. No Google username/password is stored or used.
+clientId=
+clientSecret=
+summary=Your calendar name
+
+[weather]
+apiKey=
+latitude=48.026500
+longitude=11.589800

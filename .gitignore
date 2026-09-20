@@ -1,0 +1,5 @@
+config.ini
+build/
+*.user
+.qtcreator/
+.qt/

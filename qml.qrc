@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ClockView.qml</file>
+        <file>WeatherView.qml</file>
+        <file>weatherIcons/clear-day.svg</file>
+        <file>weatherIcons/clear-night.svg</file>
+        <file>weatherIcons/cloudy-night.svg</file>
+        <file>weatherIcons/isolated-thunderstorms-day.svg</file>
+        <file>weatherIcons/isolated-thunderstorms-night.svg</file>
+        <file>weatherIcons/rain-and-snow-mix.svg</file>
+        <file>weatherIcons/rainy.svg</file>
+        <file>weatherIcons/showers-day.svg</file>
+        <file>weatherIcons/showers-night.svg</file>
+        <file>weatherIcons/snowy.svg</file>
+        <file>weatherIcons/wind.svg</file>
+        <file>WeatherDataView.qml</file>
+        <file>weatherIcons/cloudy-day.svg</file>
+        <file>CalendarView.qml</file>
+        <file>CalendarEvents.qml</file>
+        <file>DepartureTableView.qml</file>
+    </qresource>
+</RCC>
